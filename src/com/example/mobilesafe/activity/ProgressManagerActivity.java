@@ -62,7 +62,7 @@ public class ProgressManagerActivity extends Activity implements
 	private SlidingDrawer mSdDrawer;
 	private Setting_view_item mDisplaySystem;
 	private Setting_view_item mLockScreen;
-
+ 
 	@SuppressWarnings("deprecation")
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
