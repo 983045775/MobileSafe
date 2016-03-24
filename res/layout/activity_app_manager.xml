@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/titleTheme"
+        android:text="软件管家" />
+
+    <com.example.mobilesafe.view.ProgressDesView
+        android:id="@+id/app_manager_pv_rom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.example.mobilesafe.view.ProgressDesView
+        android:id="@+id/app_manager_pv_sd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp" >
+
+        <ListView
+            android:id="@+id/app_manager_lv_datas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/app_manager_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D4D4D4"
+            android:padding="5dp"
+            android:textSize="18sp" />
+
+        <include layout="@layout/public_loading" />
+    </RelativeLayout>
+
+</LinearLayout>

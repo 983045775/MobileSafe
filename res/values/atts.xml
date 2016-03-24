@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义一个属性的名字叫做text -->
+    <declare-styleable name="Setting_view_item">
+        <attr name="text" format="string" />
+    </declare-styleable>
+    <!-- 自定义一个属性的名字叫做switchs -->
+    <declare-styleable name="Setting_view_item">
+        <attr name="switchs" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="Setting_view_item">
+        <attr name="mybackground">
+            <enum name="first" value="0" />
+            <enum name="middle" value="1" />
+            <enum name="last" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="LockPatternView">
+        <attr name="aspect" format="string" />
+    </declare-styleable>
+
+</resources>

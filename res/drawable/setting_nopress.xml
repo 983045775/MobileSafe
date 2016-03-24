@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <!-- 半径 -->
+    <corners android:radius="16dp" />
+    <!-- 高和宽 -->
+    <size
+        android:height="32dp"
+        android:width="32dp" />
+    <!-- 实心的颜色设置 -->
+    <solid android:color="#99ffffff" />
+
+</shape>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/view_progress_tv_title"
+        style="@style/TextNomrt"
+        android:layout_width="55dp"
+        android:layout_marginLeft="4dp"
+        android:textColor="#99000000"
+        android:textSize="17sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp" >
+
+        <ProgressBar
+            android:id="@+id/view_progress_pb_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:progressDrawable="@drawable/am_progress_style" />
+
+        <TextView
+            android:id="@+id/view_progress_tv_right"
+            style="@style/TextNomrt"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="3dp"
+            android:textColor="#77000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/view_progress_tv_left"
+            style="@style/TextNomrt"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="3dp"
+            android:textColor="#77000000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

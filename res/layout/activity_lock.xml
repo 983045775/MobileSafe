@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/titleTheme"
+        android:text="锁屏界面" />
+
+    <ImageView
+        android:id="@+id/lock_iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/lock_et_name"
+        style="@style/TextNomrt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="broewa" />
+
+    <EditText
+        android:id="@+id/lock_et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="30dp"
+        android:hint="请输入电子狗锁密码" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/dialog_btn_cancel_selector"
+        android:onClick="clickok"
+        android:text="确定" />
+
+</LinearLayout>

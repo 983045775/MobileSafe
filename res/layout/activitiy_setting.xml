@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lc="http://schemas.android.com/apk/res/com.example.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/titleTheme"
+        android:text="设置中心" />
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/setting_auto_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        lc:mybackground="first"
+        lc:text="自动更新设置" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/setting_callsmssafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        lc:mybackground="middle"
+        lc:text="骚扰拦截设置" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/setting_numberaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        lc:mybackground="first"
+        lc:text="归属地显示设置" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/setting_address_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        lc:switchs="false"
+        lc:mybackground="middle"
+        lc:text="归属地风格设置" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+</LinearLayout>

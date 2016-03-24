@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="9dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/item_black_tv_number"
+            style="@style/TextNomrt"
+            android:text="电话号码" />
+
+        <TextView
+            android:id="@+id/item_black_tv_type"
+            style="@style/TextNomrt"
+            android:layout_marginTop="3dp"
+            android:text="拦截模式"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:clickable="true"
+        android:id="@+id/item_black_iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/item_delete_selector"/>
+
+</RelativeLayout>

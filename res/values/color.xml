@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_color">#399AD6</color>
+    <color name="my_blue">#3333ffff</color>
+    <color name="dark">#ff333333</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="white">#ffffffff</color>
+    <color name="textColorPrimaryDark">#ff000000</color>
+    <color name="applockvackground">#0066ff</color>
+    
+</resources>

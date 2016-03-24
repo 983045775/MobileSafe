@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/titleTheme"
+        android:text="号码归属地查询" />
+
+    <EditText
+        android:id="@+id/tool_query_number"
+        android:phoneNumber="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/black_ed_state_selector"
+        android:hint="请输入要查询的号码"
+        android:padding="11dp" />
+
+    <Button
+        android:id="@+id/tool_query"
+        style="@style/TextNomrt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dialog_btn_cancel_selector"
+        android:text="查询"
+        android:textColor="#ffffff" />
+    <TextView 
+        android:id="@+id/tool_query_result"
+        android:layout_margin="10dp"
+        style="@style/TextNomrt"
+        android:text="归属地:"
+        />
+
+</LinearLayout>

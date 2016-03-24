@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lc="http://schemas.android.com/apk/res/com.example.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/titleTheme"
+        android:text="常用工具" />
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/common_querynumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        lc:mybackground="first"
+        lc:switchs="false"
+        lc:text="号码归属地查询" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/common_common_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        lc:mybackground="middle"
+        lc:switchs="false"
+        lc:text="常用号码查询" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/common_sms_backups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        lc:mybackground="first"
+        lc:switchs="false"
+        lc:text="短信备份" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/common_sms_recover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        lc:mybackground="middle"
+        lc:switchs="false"
+        lc:text="短信恢复" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/common_app_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        lc:mybackground="first"
+        lc:switchs="false"
+        lc:text="程序锁管理" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/common_app_dog1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        lc:mybackground="last"
+        lc:switchs="true"
+        lc:text="开启电子狗服务1" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+    <com.example.mobilesafe.view.Setting_view_item
+        android:id="@+id/common_app_dog2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        lc:mybackground="middle"
+        lc:switchs="true"
+        lc:text="开启电子狗服务2" >
+    </com.example.mobilesafe.view.Setting_view_item>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle" severity="ignore" />
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="Deprecated" severity="ignore" />
+    <issue id="ExportedReceiver" severity="ignore" />
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="NewApi" severity="ignore" />
+    <issue id="ObsoleteLayoutParam" severity="ignore" />
+    <issue id="OldTargetApi" severity="ignore" />
+    <issue id="ProtectedPermissions" severity="ignore" />
+    <issue id="Recycle" severity="ignore" />
+    <issue id="UselessParent" severity="ignore" />
+</lint>

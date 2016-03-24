@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按下去的样式 -->
+    <item android:drawable="@drawable/antispam_report_button_press" android:state_pressed="true"></item>
+    <!-- 没有按下去的样式 -->
+    <item android:drawable="@drawable/antispam_report_button"></item>
+
+</selector>
