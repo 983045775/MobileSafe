@@ -38,7 +38,7 @@ import com.example.mobilesafe.R;
 import com.example.mobilesafe.domain.AppManagerInfo;
 import com.example.mobilesafe.engine.AppManagerDatasProvide;
 import com.example.mobilesafe.view.ProgressDesView;
-/**
+/** 
  * 这是软件管理页面
  * @author liu
  *
