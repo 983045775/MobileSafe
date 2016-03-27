@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.view.animation.Animation;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.BaseAdapter;
@@ -58,8 +59,8 @@ public class HomeActivity extends Activity implements OnItemClickListener {
 		ObjectAnimator animator = ObjectAnimator.ofFloat(mivlogo, "rotationY",
 				0, 45, 90, 180, 270, 360);
 		animator.setDuration(3000);
-		animator.setRepeatCount(ObjectAnimator.INFINITE);
-		animator.setRepeatMode(ObjectAnimator.RESTART);
+		animator.setRepeatCount(Animation.INFINITE);
+		animator.setRepeatMode(Animation.RESTART);
 		animator.start();
 		add_GridView();
 	}
@@ -169,8 +170,16 @@ public class HomeActivity extends Activity implements OnItemClickListener {
 			// 点击了进程管理
 			performProgressManager();
 			break;
+		case 4:
+			// 点击了流量统计
+			perforTarfiic();
+			break;
+		case 5:
+			// 点击了手机杀毒
+			perforAntiVirus();
+			break;
 		case 6:
-			// 点击了常用工具
+			// 点击了缓存清理
 			perforCacheClena();
 			break;
 		case 7:
@@ -178,6 +187,16 @@ public class HomeActivity extends Activity implements OnItemClickListener {
 			commonTools();
 			break;
 		}
+	}
+
+	private void perforAntiVirus() {
+		Intent intent = new Intent(this, AntiVirusActivity.class);
+		startActivity(intent);
+	}
+
+	private void perforTarfiic() {
+		Intent intent = new Intent(this, TrafficAcitivity.class);
+		startActivity(intent);
 	}
 
 	private void perforCacheClena() {

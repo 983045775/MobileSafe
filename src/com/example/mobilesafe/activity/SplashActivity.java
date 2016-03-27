@@ -90,9 +90,48 @@ public class SplashActivity extends Activity {
 		unGzipDataBase();
 		// 进行拷贝常用数据库操作
 		copyCommonNumber();
+		// 进行拷贝常用数据库操作
+		copyAntiVirusDB();
 		// 开启保护进程
 		Intent intent = new Intent(this, ProtectService.class);
 		startService(intent);
+	}
+
+	private void copyAntiVirusDB() {
+		new Thread() {
+			public void run() {
+				File file = new File(getFilesDir(), "antivirus.db");
+				// 进行判断是否存在这个文件
+				if (file.exists()) {
+					// 存在了,
+					Log.d(TAG, "病毒数据库已经存在了.");
+				} else {
+					InputStream in = null;
+					FileOutputStream out = null;
+					try {
+						in = getAssets().open("antivirus.db");
+						int len = -1;
+						byte[] buffer = new byte[1024];
+						out = new FileOutputStream(file);
+						while ((len = in.read(buffer)) != -1) {
+							out.write(buffer, 0, len);
+						}
+					} catch (Exception e) {
+						e.printStackTrace();
+					} finally {
+						try {
+							out.close();
+							in.close();
+							out = null;
+							in = null;
+						} catch (IOException e) {
+							e.printStackTrace();
+						}
+
+					}
+				}
+			}
+		}.start();
 	}
 
 	private void copyCommonNumber() {

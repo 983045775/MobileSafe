@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mobilesafe"
+    android:installLocation="auto"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -12,7 +13,7 @@
         android:name="android.test.InstrumentationTestRunner"
         android:targetPackage="com.example.mobilesafe" >
     </instrumentation>
-  
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -34,7 +35,7 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
     <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
-  
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
@@ -77,6 +78,8 @@
         <activity android:name=".activity.ProgressManagerActivity" />
         <activity android:name=".activity.AppLockActivity" />
         <activity android:name=".activity.CacheCleanActivity" />
+        <activity android:name=".activity.TrafficAcitivity" />
+        <activity android:name=".activity.AntiVirusActivity" />
         <activity
             android:name=".activity.LockActivity"
             android:launchMode="singleInstance" />
