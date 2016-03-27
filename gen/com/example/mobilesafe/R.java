@@ -21,6 +21,18 @@ public final class R {
         public static final int shake=0x7f040009;
     }
     public static final class attr {
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int arcProgressStyle=0x7f010027;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_angle=0x7f010019;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -28,7 +40,334 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int aspect=0x7f010006;
+        public static final int arc_bottom_text=0x7f010023;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_bottom_text_size=0x7f010024;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_finished_color=0x7f01001d;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_max=0x7f01001b;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_progress=0x7f010018;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_stroke_width=0x7f01001a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_suffix_text=0x7f010020;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_suffix_text_padding=0x7f010022;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_suffix_text_size=0x7f010021;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_text_color=0x7f01001f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_text_size=0x7f01001e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arc_unfinished_color=0x7f01001c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int aspect=0x7f01002e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int circleProgressStyle=0x7f010025;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circle_finished_color=0x7f010003;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circle_max=0x7f010001;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circle_prefix_text=0x7f010006;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circle_progress=0x7f010000;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circle_suffix_text=0x7f010007;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circle_text_color=0x7f010005;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circle_text_size=0x7f010004;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circle_unfinished_color=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int donutProgressStyle=0x7f010026;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_background_color=0x7f010013;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_circle_starting_degree=0x7f010017;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_finished_color=0x7f01000b;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_finished_stroke_width=0x7f01000c;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_inner_bottom_text=0x7f010014;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_inner_bottom_text_color=0x7f010016;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_inner_bottom_text_size=0x7f010015;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_max=0x7f010009;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_prefix_text=0x7f010010;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_progress=0x7f010008;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_suffix_text=0x7f010011;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_text=0x7f010012;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_text_color=0x7f01000f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_text_size=0x7f01000e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_unfinished_color=0x7f01000a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int donut_unfinished_stroke_width=0x7f01000d;
         /**  StickyListHeaders attributes 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -37,7 +376,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hasStickyHeaders=0x7f010001;
+        public static final int hasStickyHeaders=0x7f010029;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -45,7 +384,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int isDrawingListUnderStickyHeader=0x7f010002;
+        public static final int isDrawingListUnderStickyHeader=0x7f01002a;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -57,11 +396,11 @@ containing a value of this type.
 <tr><td><code>last</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int mybackground=0x7f010005;
+        public static final int mybackground=0x7f01002d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int stickyListHeadersListViewStyle=0x7f010000;
+        public static final int stickyListHeadersListViewStyle=0x7f010028;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -69,7 +408,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchs=0x7f010004;
+        public static final int switchs=0x7f01002c;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -77,7 +416,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int text=0x7f010003;
+        public static final int text=0x7f01002b;
     }
     public static final class color {
         public static final int app_lock_selector=0x7f090007;
@@ -224,144 +563,151 @@ containing a value of this type.
         public static final int widget_bg_portrait_child_divider=0x7f020078;
     }
     public static final class id {
-        public static final int action_settings=0x7f080089;
-        public static final int address_dialog_lv_item=0x7f080045;
-        public static final int antivirus_lv_listview=0x7f080009;
-        public static final int antivirus_tv_packagename=0x7f080008;
-        public static final int antivirus_tv_percentage=0x7f080007;
-        public static final int app_manager_lv_datas=0x7f08000c;
-        public static final int app_manager_pv_rom=0x7f08000a;
-        public static final int app_manager_pv_sd=0x7f08000b;
-        public static final int app_manager_tv_title=0x7f08000d;
-        public static final int app_tv_lock=0x7f080086;
-        public static final int app_tv_unlock=0x7f080085;
-        public static final int applock=0x7f08000f;
-        public static final int applock_lv_datas=0x7f080011;
-        public static final int applock_tv_desc=0x7f080010;
-        public static final int applock_tv_title=0x7f08000e;
-        public static final int black_et_number=0x7f080013;
-        public static final int black_iv_empty=0x7f08001a;
-        public static final int black_ll_loading=0x7f080075;
-        public static final int black_lv=0x7f08001b;
-        public static final int black_rbt_all=0x7f080017;
-        public static final int black_rbt_call=0x7f080015;
-        public static final int black_rbt_sms=0x7f080016;
-        public static final int black_rg=0x7f080014;
-        public static final int black_save=0x7f080018;
-        public static final int black_tv_title=0x7f080012;
-        public static final int black_unsave=0x7f080019;
-        public static final int btn_clear=0x7f080074;
-        public static final int cache_btn_clear=0x7f080025;
-        public static final int cache_iv_icon=0x7f08001d;
-        public static final int cache_iv_line=0x7f08001e;
-        public static final int cache_ll_result=0x7f080022;
-        public static final int cache_ll_scan=0x7f08001c;
-        public static final int cache_lv_listview=0x7f080024;
-        public static final int cache_pb_progress=0x7f08001f;
-        public static final int cache_tv_desc=0x7f080023;
-        public static final int cache_tv_name=0x7f080020;
-        public static final int cache_tv_size=0x7f080021;
-        public static final int common_El_number=0x7f080026;
-        public static final int common_app_dog1=0x7f08002c;
-        public static final int common_app_dog2=0x7f08002d;
-        public static final int common_app_lock=0x7f08002b;
-        public static final int common_common_number=0x7f080028;
-        public static final int common_querynumber=0x7f080027;
-        public static final int common_sms_backups=0x7f080029;
-        public static final int common_sms_recover=0x7f08002a;
-        public static final int contacts_lv=0x7f08002e;
-        public static final int contacts_probar=0x7f08002f;
-        public static final int dialog_bt_cancel=0x7f080048;
-        public static final int dialog_bt_confirm=0x7f080047;
-        public static final int dialog_tv_confirm=0x7f080049;
-        public static final int dialog_tv_pwd=0x7f080046;
+        public static final int action_settings=0x7f080090;
+        public static final int address_dialog_lv_item=0x7f08004c;
+        public static final int antivirus_ap_progress=0x7f080008;
+        public static final int antivirus_btn_quick=0x7f08000c;
+        public static final int antivirus_iv_left=0x7f08000e;
+        public static final int antivirus_iv_right=0x7f08000f;
+        public static final int antivirus_ll_animation_container=0x7f08000d;
+        public static final int antivirus_ll_result_container=0x7f08000a;
+        public static final int antivirus_lv_listview=0x7f080010;
+        public static final int antivirus_rl_progress_container=0x7f080007;
+        public static final int antivirus_tv_desc=0x7f08000b;
+        public static final int antivirus_tv_packagename=0x7f080009;
+        public static final int app_manager_lv_datas=0x7f080013;
+        public static final int app_manager_pv_rom=0x7f080011;
+        public static final int app_manager_pv_sd=0x7f080012;
+        public static final int app_manager_tv_title=0x7f080014;
+        public static final int app_tv_lock=0x7f08008d;
+        public static final int app_tv_unlock=0x7f08008c;
+        public static final int applock=0x7f080016;
+        public static final int applock_lv_datas=0x7f080018;
+        public static final int applock_tv_desc=0x7f080017;
+        public static final int applock_tv_title=0x7f080015;
+        public static final int black_et_number=0x7f08001a;
+        public static final int black_iv_empty=0x7f080021;
+        public static final int black_ll_loading=0x7f08007c;
+        public static final int black_lv=0x7f080022;
+        public static final int black_rbt_all=0x7f08001e;
+        public static final int black_rbt_call=0x7f08001c;
+        public static final int black_rbt_sms=0x7f08001d;
+        public static final int black_rg=0x7f08001b;
+        public static final int black_save=0x7f08001f;
+        public static final int black_tv_title=0x7f080019;
+        public static final int black_unsave=0x7f080020;
+        public static final int btn_clear=0x7f08007b;
+        public static final int cache_btn_clear=0x7f08002c;
+        public static final int cache_iv_icon=0x7f080024;
+        public static final int cache_iv_line=0x7f080025;
+        public static final int cache_ll_result=0x7f080029;
+        public static final int cache_ll_scan=0x7f080023;
+        public static final int cache_lv_listview=0x7f08002b;
+        public static final int cache_pb_progress=0x7f080026;
+        public static final int cache_tv_desc=0x7f08002a;
+        public static final int cache_tv_name=0x7f080027;
+        public static final int cache_tv_size=0x7f080028;
+        public static final int common_El_number=0x7f08002d;
+        public static final int common_app_dog1=0x7f080033;
+        public static final int common_app_dog2=0x7f080034;
+        public static final int common_app_lock=0x7f080032;
+        public static final int common_common_number=0x7f08002f;
+        public static final int common_querynumber=0x7f08002e;
+        public static final int common_sms_backups=0x7f080030;
+        public static final int common_sms_recover=0x7f080031;
+        public static final int contacts_lv=0x7f080035;
+        public static final int contacts_probar=0x7f080036;
+        public static final int dialog_bt_cancel=0x7f08004f;
+        public static final int dialog_bt_confirm=0x7f08004e;
+        public static final int dialog_tv_confirm=0x7f080050;
+        public static final int dialog_tv_pwd=0x7f08004d;
         public static final int first=0x7f080000;
-        public static final int home_grid=0x7f080031;
-        public static final int home_logo=0x7f080030;
-        public static final int item_address_dec=0x7f08004b;
-        public static final int item_address_selected=0x7f08004c;
-        public static final int item_address_style=0x7f08004a;
-        public static final int item_antivirus_iv_clean=0x7f080050;
-        public static final int item_antivirus_iv_icon=0x7f08004d;
-        public static final int item_antivirus_tv_isantivirus=0x7f08004f;
-        public static final int item_antivirus_tv_name=0x7f08004e;
-        public static final int item_app_manager_iv_icon=0x7f080054;
-        public static final int item_app_manager_tv_name=0x7f080055;
-        public static final int item_app_manager_tv_size=0x7f080057;
-        public static final int item_app_manager_tv_type=0x7f080056;
-        public static final int item_applock_icon=0x7f080051;
-        public static final int item_applock_lock=0x7f080053;
-        public static final int item_applock_name=0x7f080052;
-        public static final int item_black_iv_delete=0x7f08005a;
-        public static final int item_black_tv_number=0x7f080058;
-        public static final int item_black_tv_type=0x7f080059;
-        public static final int item_cache_iv_clean=0x7f08005e;
-        public static final int item_cache_iv_icon=0x7f08005b;
-        public static final int item_cache_tv_cachesize=0x7f08005d;
-        public static final int item_cache_tv_name=0x7f08005c;
-        public static final int item_contacts_iv_person=0x7f08005f;
-        public static final int item_contacts_tv_name=0x7f080060;
-        public static final int item_contacts_tv_number=0x7f080061;
-        public static final int item_home_iv_photo=0x7f080062;
-        public static final int item_home_tv_desc=0x7f080064;
-        public static final int item_home_tv_name=0x7f080063;
-        public static final int item_progress_cb_select=0x7f080068;
-        public static final int item_progress_iv_icon=0x7f080065;
-        public static final int item_progress_tv_appName=0x7f080066;
-        public static final int item_progress_tv_usermemory=0x7f080067;
-        public static final int item_traffic_iv_icon=0x7f080069;
-        public static final int item_traffic_tv_name=0x7f08006a;
-        public static final int item_traffic_tv_rcv=0x7f08006b;
-        public static final int item_traffic_tv_send=0x7f08006c;
+        public static final int home_grid=0x7f080038;
+        public static final int home_logo=0x7f080037;
+        public static final int item_address_dec=0x7f080052;
+        public static final int item_address_selected=0x7f080053;
+        public static final int item_address_style=0x7f080051;
+        public static final int item_antivirus_iv_clean=0x7f080057;
+        public static final int item_antivirus_iv_icon=0x7f080054;
+        public static final int item_antivirus_tv_isantivirus=0x7f080056;
+        public static final int item_antivirus_tv_name=0x7f080055;
+        public static final int item_app_manager_iv_icon=0x7f08005b;
+        public static final int item_app_manager_tv_name=0x7f08005c;
+        public static final int item_app_manager_tv_size=0x7f08005e;
+        public static final int item_app_manager_tv_type=0x7f08005d;
+        public static final int item_applock_icon=0x7f080058;
+        public static final int item_applock_lock=0x7f08005a;
+        public static final int item_applock_name=0x7f080059;
+        public static final int item_black_iv_delete=0x7f080061;
+        public static final int item_black_tv_number=0x7f08005f;
+        public static final int item_black_tv_type=0x7f080060;
+        public static final int item_cache_iv_clean=0x7f080065;
+        public static final int item_cache_iv_icon=0x7f080062;
+        public static final int item_cache_tv_cachesize=0x7f080064;
+        public static final int item_cache_tv_name=0x7f080063;
+        public static final int item_contacts_iv_person=0x7f080066;
+        public static final int item_contacts_tv_name=0x7f080067;
+        public static final int item_contacts_tv_number=0x7f080068;
+        public static final int item_home_iv_photo=0x7f080069;
+        public static final int item_home_tv_desc=0x7f08006b;
+        public static final int item_home_tv_name=0x7f08006a;
+        public static final int item_progress_cb_select=0x7f08006f;
+        public static final int item_progress_iv_icon=0x7f08006c;
+        public static final int item_progress_tv_appName=0x7f08006d;
+        public static final int item_progress_tv_usermemory=0x7f08006e;
+        public static final int item_traffic_iv_icon=0x7f080070;
+        public static final int item_traffic_tv_name=0x7f080071;
+        public static final int item_traffic_tv_rcv=0x7f080072;
+        public static final int item_traffic_tv_send=0x7f080073;
         public static final int last=0x7f080002;
-        public static final int lock_et_name=0x7f080033;
-        public static final int lock_et_pwd=0x7f080034;
-        public static final int lock_iv_icon=0x7f080032;
+        public static final int lock_et_name=0x7f08003a;
+        public static final int lock_et_pwd=0x7f08003b;
+        public static final int lock_iv_icon=0x7f080039;
         public static final int middle=0x7f080001;
-        public static final int notification_charging_full_summary=0x7f08006d;
-        public static final int popup_app_manager_ll_info=0x7f08006e;
-        public static final int popup_app_manager_ll_open=0x7f08006f;
-        public static final int popup_app_manager_ll_share=0x7f080070;
-        public static final int popup_app_manager_ll_uninstall=0x7f080071;
-        public static final int process_count=0x7f080072;
-        public static final int process_memory=0x7f080073;
-        public static final int progress_iv_clean=0x7f080035;
-        public static final int progress_manager_iv_up1=0x7f08003c;
-        public static final int progress_manager_iv_up2=0x7f08003d;
-        public static final int progress_manager_ll_content=0x7f08003a;
-        public static final int progress_manager_rl_handle=0x7f08003b;
-        public static final int progress_manager_sd_drawer=0x7f080039;
-        public static final int progress_manager_set_display_system=0x7f08003e;
-        public static final int progress_manager_set_lock_screen=0x7f08003f;
-        public static final int progress_pv_memory=0x7f080037;
-        public static final int progress_pv_progress=0x7f080036;
-        public static final int progress_slv_list=0x7f080038;
-        public static final int rl_openSetup=0x7f080079;
-        public static final int rl_proPhone=0x7f080077;
+        public static final int notification_charging_full_summary=0x7f080074;
+        public static final int popup_app_manager_ll_info=0x7f080075;
+        public static final int popup_app_manager_ll_open=0x7f080076;
+        public static final int popup_app_manager_ll_share=0x7f080077;
+        public static final int popup_app_manager_ll_uninstall=0x7f080078;
+        public static final int process_count=0x7f080079;
+        public static final int process_memory=0x7f08007a;
+        public static final int progress_iv_clean=0x7f08003c;
+        public static final int progress_manager_iv_up1=0x7f080043;
+        public static final int progress_manager_iv_up2=0x7f080044;
+        public static final int progress_manager_ll_content=0x7f080041;
+        public static final int progress_manager_rl_handle=0x7f080042;
+        public static final int progress_manager_sd_drawer=0x7f080040;
+        public static final int progress_manager_set_display_system=0x7f080045;
+        public static final int progress_manager_set_lock_screen=0x7f080046;
+        public static final int progress_pv_memory=0x7f08003e;
+        public static final int progress_pv_progress=0x7f08003d;
+        public static final int progress_slv_list=0x7f08003f;
+        public static final int rl_openSetup=0x7f080080;
+        public static final int rl_proPhone=0x7f08007e;
         public static final int setting_address_style=0x7f080006;
         public static final int setting_auto_update=0x7f080003;
         public static final int setting_callsmssafe=0x7f080004;
-        public static final int setting_item_iv_on_off=0x7f080088;
-        public static final int setting_item_tv_title=0x7f080087;
+        public static final int setting_item_iv_on_off=0x7f08008f;
+        public static final int setting_item_tv_title=0x7f08008e;
         public static final int setting_numberaddress=0x7f080005;
-        public static final int setup_end_ivlock=0x7f080078;
-        public static final int sjfd_checkbox=0x7f08007a;
-        public static final int sjfd_end_number=0x7f080076;
-        public static final int sjfd_setup3_ev_number=0x7f08007d;
-        public static final int sjfd_setup4_iv=0x7f08007c;
-        public static final int sjfd_setup4_rl_admin=0x7f08007b;
-        public static final int sjfd_setup_iv_lock=0x7f08007f;
-        public static final int sjfd_setup_rv_sim=0x7f08007e;
-        public static final int splash_tv_version=0x7f080040;
-        public static final int toast_tv_address=0x7f080080;
-        public static final int tool_query=0x7f080042;
-        public static final int tool_query_number=0x7f080041;
-        public static final int tool_query_result=0x7f080043;
-        public static final int traffic_lv_listview=0x7f080044;
-        public static final int view_progress_pb_progress=0x7f080082;
-        public static final int view_progress_tv_left=0x7f080084;
-        public static final int view_progress_tv_right=0x7f080083;
-        public static final int view_progress_tv_title=0x7f080081;
+        public static final int setup_end_ivlock=0x7f08007f;
+        public static final int sjfd_checkbox=0x7f080081;
+        public static final int sjfd_end_number=0x7f08007d;
+        public static final int sjfd_setup3_ev_number=0x7f080084;
+        public static final int sjfd_setup4_iv=0x7f080083;
+        public static final int sjfd_setup4_rl_admin=0x7f080082;
+        public static final int sjfd_setup_iv_lock=0x7f080086;
+        public static final int sjfd_setup_rv_sim=0x7f080085;
+        public static final int splash_tv_version=0x7f080047;
+        public static final int toast_tv_address=0x7f080087;
+        public static final int tool_query=0x7f080049;
+        public static final int tool_query_number=0x7f080048;
+        public static final int tool_query_result=0x7f08004a;
+        public static final int traffic_lv_listview=0x7f08004b;
+        public static final int view_progress_pb_progress=0x7f080089;
+        public static final int view_progress_tv_left=0x7f08008b;
+        public static final int view_progress_tv_right=0x7f08008a;
+        public static final int view_progress_tv_title=0x7f080088;
     }
     public static final class interpolator {
         public static final int accelerate_cubic=0x7f050000;
@@ -522,6 +868,669 @@ containing a value of this type.
         public static final int process_widget_provider=0x7f060002;
     }
     public static final class styleable {
+        /** Attributes that can be used with a ArcProgress.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ArcProgress_arc_angle com.example.mobilesafe:arc_angle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_bottom_text com.example.mobilesafe:arc_bottom_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_bottom_text_size com.example.mobilesafe:arc_bottom_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_finished_color com.example.mobilesafe:arc_finished_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_max com.example.mobilesafe:arc_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_progress com.example.mobilesafe:arc_progress}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_stroke_width com.example.mobilesafe:arc_stroke_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_suffix_text com.example.mobilesafe:arc_suffix_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_suffix_text_padding com.example.mobilesafe:arc_suffix_text_padding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_suffix_text_size com.example.mobilesafe:arc_suffix_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_text_color com.example.mobilesafe:arc_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_text_size com.example.mobilesafe:arc_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #ArcProgress_arc_unfinished_color com.example.mobilesafe:arc_unfinished_color}</code></td><td></td></tr>
+           </table>
+           @see #ArcProgress_arc_angle
+           @see #ArcProgress_arc_bottom_text
+           @see #ArcProgress_arc_bottom_text_size
+           @see #ArcProgress_arc_finished_color
+           @see #ArcProgress_arc_max
+           @see #ArcProgress_arc_progress
+           @see #ArcProgress_arc_stroke_width
+           @see #ArcProgress_arc_suffix_text
+           @see #ArcProgress_arc_suffix_text_padding
+           @see #ArcProgress_arc_suffix_text_size
+           @see #ArcProgress_arc_text_color
+           @see #ArcProgress_arc_text_size
+           @see #ArcProgress_arc_unfinished_color
+         */
+        public static final int[] ArcProgress = {
+            0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b,
+            0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f,
+            0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023,
+            0x7f010024
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_angle}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_angle
+        */
+        public static final int ArcProgress_arc_angle = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_bottom_text}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_bottom_text
+        */
+        public static final int ArcProgress_arc_bottom_text = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_bottom_text_size}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_bottom_text_size
+        */
+        public static final int ArcProgress_arc_bottom_text_size = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_finished_color}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_finished_color
+        */
+        public static final int ArcProgress_arc_finished_color = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_max}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_max
+        */
+        public static final int ArcProgress_arc_max = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_progress}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_progress
+        */
+        public static final int ArcProgress_arc_progress = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_stroke_width}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_stroke_width
+        */
+        public static final int ArcProgress_arc_stroke_width = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_suffix_text}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_suffix_text
+        */
+        public static final int ArcProgress_arc_suffix_text = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_suffix_text_padding}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_suffix_text_padding
+        */
+        public static final int ArcProgress_arc_suffix_text_padding = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_suffix_text_size}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_suffix_text_size
+        */
+        public static final int ArcProgress_arc_suffix_text_size = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_text_color}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_text_color
+        */
+        public static final int ArcProgress_arc_text_color = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_text_size}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_text_size
+        */
+        public static final int ArcProgress_arc_text_size = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arc_unfinished_color}
+          attribute's value can be found in the {@link #ArcProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:arc_unfinished_color
+        */
+        public static final int ArcProgress_arc_unfinished_color = 4;
+        /** Attributes that can be used with a CircleProgress.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CircleProgress_circle_finished_color com.example.mobilesafe:circle_finished_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleProgress_circle_max com.example.mobilesafe:circle_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleProgress_circle_prefix_text com.example.mobilesafe:circle_prefix_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleProgress_circle_progress com.example.mobilesafe:circle_progress}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleProgress_circle_suffix_text com.example.mobilesafe:circle_suffix_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleProgress_circle_text_color com.example.mobilesafe:circle_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleProgress_circle_text_size com.example.mobilesafe:circle_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleProgress_circle_unfinished_color com.example.mobilesafe:circle_unfinished_color}</code></td><td></td></tr>
+           </table>
+           @see #CircleProgress_circle_finished_color
+           @see #CircleProgress_circle_max
+           @see #CircleProgress_circle_prefix_text
+           @see #CircleProgress_circle_progress
+           @see #CircleProgress_circle_suffix_text
+           @see #CircleProgress_circle_text_color
+           @see #CircleProgress_circle_text_size
+           @see #CircleProgress_circle_unfinished_color
+         */
+        public static final int[] CircleProgress = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circle_finished_color}
+          attribute's value can be found in the {@link #CircleProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:circle_finished_color
+        */
+        public static final int CircleProgress_circle_finished_color = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circle_max}
+          attribute's value can be found in the {@link #CircleProgress} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:circle_max
+        */
+        public static final int CircleProgress_circle_max = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circle_prefix_text}
+          attribute's value can be found in the {@link #CircleProgress} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:circle_prefix_text
+        */
+        public static final int CircleProgress_circle_prefix_text = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circle_progress}
+          attribute's value can be found in the {@link #CircleProgress} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:circle_progress
+        */
+        public static final int CircleProgress_circle_progress = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circle_suffix_text}
+          attribute's value can be found in the {@link #CircleProgress} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:circle_suffix_text
+        */
+        public static final int CircleProgress_circle_suffix_text = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circle_text_color}
+          attribute's value can be found in the {@link #CircleProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:circle_text_color
+        */
+        public static final int CircleProgress_circle_text_color = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circle_text_size}
+          attribute's value can be found in the {@link #CircleProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:circle_text_size
+        */
+        public static final int CircleProgress_circle_text_size = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circle_unfinished_color}
+          attribute's value can be found in the {@link #CircleProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:circle_unfinished_color
+        */
+        public static final int CircleProgress_circle_unfinished_color = 2;
+        /** Attributes that can be used with a DonutProgress.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #DonutProgress_donut_background_color com.example.mobilesafe:donut_background_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_circle_starting_degree com.example.mobilesafe:donut_circle_starting_degree}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_finished_color com.example.mobilesafe:donut_finished_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_finished_stroke_width com.example.mobilesafe:donut_finished_stroke_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_inner_bottom_text com.example.mobilesafe:donut_inner_bottom_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_inner_bottom_text_color com.example.mobilesafe:donut_inner_bottom_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_inner_bottom_text_size com.example.mobilesafe:donut_inner_bottom_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_max com.example.mobilesafe:donut_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_prefix_text com.example.mobilesafe:donut_prefix_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_progress com.example.mobilesafe:donut_progress}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_suffix_text com.example.mobilesafe:donut_suffix_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_text com.example.mobilesafe:donut_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_text_color com.example.mobilesafe:donut_text_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_text_size com.example.mobilesafe:donut_text_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_unfinished_color com.example.mobilesafe:donut_unfinished_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DonutProgress_donut_unfinished_stroke_width com.example.mobilesafe:donut_unfinished_stroke_width}</code></td><td></td></tr>
+           </table>
+           @see #DonutProgress_donut_background_color
+           @see #DonutProgress_donut_circle_starting_degree
+           @see #DonutProgress_donut_finished_color
+           @see #DonutProgress_donut_finished_stroke_width
+           @see #DonutProgress_donut_inner_bottom_text
+           @see #DonutProgress_donut_inner_bottom_text_color
+           @see #DonutProgress_donut_inner_bottom_text_size
+           @see #DonutProgress_donut_max
+           @see #DonutProgress_donut_prefix_text
+           @see #DonutProgress_donut_progress
+           @see #DonutProgress_donut_suffix_text
+           @see #DonutProgress_donut_text
+           @see #DonutProgress_donut_text_color
+           @see #DonutProgress_donut_text_size
+           @see #DonutProgress_donut_unfinished_color
+           @see #DonutProgress_donut_unfinished_stroke_width
+         */
+        public static final int[] DonutProgress = {
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
+            0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013,
+            0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_background_color}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_background_color
+        */
+        public static final int DonutProgress_donut_background_color = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_circle_starting_degree}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_circle_starting_degree
+        */
+        public static final int DonutProgress_donut_circle_starting_degree = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_finished_color}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_finished_color
+        */
+        public static final int DonutProgress_donut_finished_color = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_finished_stroke_width}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_finished_stroke_width
+        */
+        public static final int DonutProgress_donut_finished_stroke_width = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_inner_bottom_text}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_inner_bottom_text
+        */
+        public static final int DonutProgress_donut_inner_bottom_text = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_inner_bottom_text_color}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_inner_bottom_text_color
+        */
+        public static final int DonutProgress_donut_inner_bottom_text_color = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_inner_bottom_text_size}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_inner_bottom_text_size
+        */
+        public static final int DonutProgress_donut_inner_bottom_text_size = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_max}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_max
+        */
+        public static final int DonutProgress_donut_max = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_prefix_text}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_prefix_text
+        */
+        public static final int DonutProgress_donut_prefix_text = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_progress}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_progress
+        */
+        public static final int DonutProgress_donut_progress = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_suffix_text}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_suffix_text
+        */
+        public static final int DonutProgress_donut_suffix_text = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_text}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_text
+        */
+        public static final int DonutProgress_donut_text = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_text_color}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_text_color
+        */
+        public static final int DonutProgress_donut_text_color = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_text_size}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_text_size
+        */
+        public static final int DonutProgress_donut_text_size = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_unfinished_color}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_unfinished_color
+        */
+        public static final int DonutProgress_donut_unfinished_color = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donut_unfinished_stroke_width}
+          attribute's value can be found in the {@link #DonutProgress} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:donut_unfinished_stroke_width
+        */
+        public static final int DonutProgress_donut_unfinished_stroke_width = 5;
         /** Attributes that can be used with a LockPatternView.
            <p>Includes the following attributes:</p>
            <table>
@@ -533,7 +1542,7 @@ containing a value of this type.
            @see #LockPatternView_aspect
          */
         public static final int[] LockPatternView = {
-            0x7f010006
+            0x7f01002e
         };
         /**
           <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#aspect}
@@ -565,7 +1574,7 @@ containing a value of this type.
            @see #Setting_view_item_text
          */
         public static final int[] Setting_view_item = {
-            0x7f010003, 0x7f010004, 0x7f010005
+            0x7f01002b, 0x7f01002c, 0x7f01002d
         };
         /**
           <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#mybackground}
@@ -677,8 +1686,8 @@ containing a value of this type.
             0x010100eb, 0x010100fb, 0x010100fc, 0x010100fd,
             0x010100fe, 0x01010100, 0x01010101, 0x01010129,
             0x0101012a, 0x0101012b, 0x01010226, 0x010102c1,
-            0x01010335, 0x010103a5, 0x7f010000, 0x7f010001,
-            0x7f010002
+            0x01010335, 0x010103a5, 0x7f010028, 0x7f010029,
+            0x7f01002a
         };
         /**
           <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#android_cacheColorHint}
@@ -856,5 +1865,52 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android:stickyListHeadersListViewStyle
         */
         public static final int StickyListHeadersListView_stickyListHeadersListViewStyle = 22;
+        /** Attributes that can be used with a Themes.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Themes_arcProgressStyle com.example.mobilesafe:arcProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Themes_circleProgressStyle com.example.mobilesafe:circleProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Themes_donutProgressStyle com.example.mobilesafe:donutProgressStyle}</code></td><td></td></tr>
+           </table>
+           @see #Themes_arcProgressStyle
+           @see #Themes_circleProgressStyle
+           @see #Themes_donutProgressStyle
+         */
+        public static final int[] Themes = {
+            0x7f010025, 0x7f010026, 0x7f010027
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#arcProgressStyle}
+          attribute's value can be found in the {@link #Themes} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:arcProgressStyle
+        */
+        public static final int Themes_arcProgressStyle = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#circleProgressStyle}
+          attribute's value can be found in the {@link #Themes} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:circleProgressStyle
+        */
+        public static final int Themes_circleProgressStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.mobilesafe.R.attr#donutProgressStyle}
+          attribute's value can be found in the {@link #Themes} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name android:donutProgressStyle
+        */
+        public static final int Themes_donutProgressStyle = 1;
     };
 }

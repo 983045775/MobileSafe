@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.mobilesafe"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
@@ -8,31 +9,90 @@
         style="@style/titleTheme"
         android:text="病毒查杀" />
 
-    <RelativeLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
-        android:background="@color/title_color" >
+        android:layout_weight="3" >
 
-        <TextView
-            android:id="@+id/antivirus_tv_percentage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="0%"
-            android:textColor="@color/white"
-            android:textSize="19sp" />
+        <RelativeLayout
+            android:id="@+id/antivirus_rl_progress_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/title_color" >
 
-        <TextView
-            android:id="@+id/antivirus_tv_packagename"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:text="com.heima.mobilesafe"
-            android:textColor="@color/white"
-            android:textSize="19sp" />
-    </RelativeLayout>
+            <com.github.lzyzsd.circleprogress.ArcProgress
+                android:id="@+id/antivirus_ap_progress"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerInParent="true"
+                custom:arc_bottom_text="杀毒中"
+                custom:arc_bottom_text_size="18sp"
+                custom:arc_stroke_width="10dp"
+                custom:arc_suffix_text_size="21sp"
+                custom:arc_text_color="@color/white" />
+
+            <TextView
+                android:id="@+id/antivirus_tv_packagename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="com.heima.mobilesafe"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/antivirus_ll_result_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/title_color"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/antivirus_tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="您当前的手机是安全的放心吧"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/antivirus_btn_quick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/dialog_btn_cancel_selector"
+                android:padding="10dp"
+                android:text="快速扫描"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/antivirus_ll_animation_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/title_color"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:id="@+id/antivirus_iv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:src="@drawable/icon"
+                android:id="@+id/antivirus_iv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
 
     <ListView
         android:id="@+id/antivirus_lv_listview"
