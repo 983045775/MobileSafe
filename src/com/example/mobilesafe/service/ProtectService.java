@@ -71,6 +71,6 @@ public class ProtectService extends Service {
 					}
 				}
 			}
-		}, 3000, 5000);
+		}, 3000, 15000);
 	}
 }

@@ -32,7 +32,6 @@ public class ServiceUtils {
 			String className = service.getClassName();
 			if (className.equals(clazz.getName())) {
 				// 说明是开启的
-				Log.d(TAG, "开启的");
 				return true;
 			}
 		}
