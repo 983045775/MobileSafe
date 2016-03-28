@@ -42,4 +42,8 @@ public interface Constants {
 	 * 锁屏自动清理
 	 */
 	String AUTO_CLEAR = "Auto_clear";
+	/**
+	 * 创建桌面快捷方式
+	 */
+	String SHORTCUT = "shortcut";
 }

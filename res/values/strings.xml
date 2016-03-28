@@ -20,5 +20,16 @@
     <string name="notification_charging_full_title">哈哈手机卫士提醒您</string>
     <string name="notification_charging_full_summary">您的手机正在时刻保护</string>
     <string name="accessbility">手机安全卫士电子狗</string>
+    <string name="crash_toast_text">哦哦哦.....Bug正在急速修复中</string>
+    <string name="crash_dialog_title">天啦噜~应用出现问题了</string>
+    <string name="crash_dialog_text">亲爱的请你填写愿意配合我们来进行修改吗.</string>
+    <string name="crash_dialog_comment_prompt">请在这里填写描述的详细问题:</string>
+    <string name="crash_dialog_ok_toast">谢谢你 !</string>
+    <string name="crash_user_email_label">如有需要请联系邮箱:983045775@qq.com</string>
+    
+    <!--Strings from Dialog section of wiki go here!-->
+<string name="crash_notif_ticker_text">天啦噜~应用出现问题了.</string>
+<string name="crash_notif_title">亲爱的请你填写愿意配合我们来进行修改吗.</string>
+<string name="crash_notif_text">如有需要请联系邮箱:983045775@qq.com.</string>
 
 </resources>

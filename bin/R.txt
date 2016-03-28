@@ -385,6 +385,15 @@ int string URL 0x7f0b0003
 int string accessbility 0x7f0b0012
 int string action_settings 0x7f0b0001
 int string app_name 0x7f0b0000
+int string crash_dialog_comment_prompt 0x7f0b0016
+int string crash_dialog_ok_toast 0x7f0b0017
+int string crash_dialog_text 0x7f0b0015
+int string crash_dialog_title 0x7f0b0014
+int string crash_notif_text 0x7f0b001b
+int string crash_notif_ticker_text 0x7f0b0019
+int string crash_notif_title 0x7f0b001a
+int string crash_toast_text 0x7f0b0013
+int string crash_user_email_label 0x7f0b0018
 int string hello_world 0x7f0b0002
 int string lockscreen_access_pattern_cell_added 0x7f0b0006
 int string lockscreen_access_pattern_cleared 0x7f0b0009

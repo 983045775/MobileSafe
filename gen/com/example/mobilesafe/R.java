@@ -771,6 +771,17 @@ containing a value of this type.
         public static final int accessbility=0x7f0b0012;
         public static final int action_settings=0x7f0b0001;
         public static final int app_name=0x7f0b0000;
+        public static final int crash_dialog_comment_prompt=0x7f0b0016;
+        public static final int crash_dialog_ok_toast=0x7f0b0017;
+        public static final int crash_dialog_text=0x7f0b0015;
+        public static final int crash_dialog_title=0x7f0b0014;
+        public static final int crash_notif_text=0x7f0b001b;
+        /** Strings from Dialog section of wiki go here!
+         */
+        public static final int crash_notif_ticker_text=0x7f0b0019;
+        public static final int crash_notif_title=0x7f0b001a;
+        public static final int crash_toast_text=0x7f0b0013;
+        public static final int crash_user_email_label=0x7f0b0018;
         public static final int hello_world=0x7f0b0002;
         public static final int lockscreen_access_pattern_cell_added=0x7f0b0006;
         public static final int lockscreen_access_pattern_cleared=0x7f0b0009;

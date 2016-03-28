@@ -45,7 +45,8 @@ public class ProtectService extends Service {
 		intent.setAction("org.lc.home");
 		noti.contentIntent = PendingIntent.getActivity(getApplicationContext(),
 				ID, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-		//发通知
+		noti.flags = noti.FLAG_ONGOING_EVENT;
+		//发通知setAutoCancel
 		nm.notify(0, noti);
 		super.onCreate();
 

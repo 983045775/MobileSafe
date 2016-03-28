@@ -145,6 +145,7 @@ public class AntiVirusActivity extends Activity implements OnClickListener {
 				runOnUiThread(new Runnable() {
 					public void run() {
 						if (isAntiVirus) {
+							antivirusFlag = true;
 							mDatas.add(0, anti);
 						} else {
 							mDatas.add(anti);
@@ -177,7 +178,21 @@ public class AntiVirusActivity extends Activity implements OnClickListener {
 				mTvDesc.setTextColor(Color.GREEN);
 			}
 			// 移动到第一个
-			mListView.smoothScrollToPosition(0);
+			new Thread() {
+				public void run() {
+					try {
+						Thread.sleep(200);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+					runOnUiThread(new Runnable() {
+						public void run() {
+							mListView.smoothScrollToPosition(0);
+						}
+					});
+				};
+			}.start();
+
 			// 添加一个动画
 			mIvLeft.setImageBitmap(setLeftBitmap());
 			mIvRight.setImageBitmap(setRightBitmap());
@@ -226,8 +241,8 @@ public class AntiVirusActivity extends Activity implements OnClickListener {
 	private Bitmap setLeftBitmap() {
 		// 设置原图
 		mRlProgressContainer.setDrawingCacheEnabled(true);
-		mRlProgressContainer
-				.setDrawingCacheQuality(View.DRAWING_CACHE_QUALITY_HIGH);
+//		mRlProgressContainer
+//				.setDrawingCacheQuality(View.DRAWING_CACHE_QUALITY_HIGH);
 
 		Bitmap oldBit = mRlProgressContainer.getDrawingCache();
 		int width = (int) (oldBit.getWidth() / 2f + 0.5f);
@@ -241,6 +256,7 @@ public class AntiVirusActivity extends Activity implements OnClickListener {
 		Matrix matrix = new Matrix();
 		// 开始画
 		canvas.drawBitmap(oldBit, matrix, paint);
+		mRlProgressContainer.setDrawingCacheEnabled(false); 
 		return newBit;
 	}
 
@@ -263,6 +279,7 @@ public class AntiVirusActivity extends Activity implements OnClickListener {
 		matrix.preTranslate(-width, 0);
 		// 开始画
 		canvas.drawBitmap(oldBit, matrix, paint);
+		mRlProgressContainer.setDrawingCacheEnabled(false); 
 		return newBit;
 	}
 
@@ -307,7 +324,6 @@ public class AntiVirusActivity extends Activity implements OnClickListener {
 			AntiVirusInfo info = mDatas.get(position);
 			if (info.isAntiVirus()) {
 				// 是病毒
-				antivirusFlag = true;
 				holder.mIvClean.setVisibility(View.VISIBLE);
 				holder.mTvIsAntivirus.setTextColor(Color.RED);
 				holder.mTvIsAntivirus.setText("病毒");

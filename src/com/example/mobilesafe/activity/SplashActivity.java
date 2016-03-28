@@ -21,6 +21,8 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.net.http.AndroidHttpClient;
 import android.os.Bundle;
@@ -95,6 +97,34 @@ public class SplashActivity extends Activity {
 		// 开启保护进程
 		Intent intent = new Intent(this, ProtectService.class);
 		startService(intent);
+
+		// 创建一个桌面快捷方式
+		// 判断是否已经创建了
+		boolean isShortcut = PreferencesUtils.getBoolean(this,
+				Constants.SHORTCUT, false);
+		if (!isShortcut) {
+			Intent shirtcutIntent = new Intent();
+			shirtcutIntent
+					.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
+			Intent actionIntent = new Intent(this, SplashActivity.class);
+			shirtcutIntent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, actionIntent);
+			shirtcutIntent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "哈哈卫士");
+			shirtcutIntent.putExtra(Intent.EXTRA_SHORTCUT_ICON, BitmapFactory
+					.decodeResource(getResources(), R.drawable.icon));
+			sendBroadcast(shirtcutIntent);
+			//设置创建过了
+			PreferencesUtils.putBoolean(this,Constants.SHORTCUT, true);
+		}
+		
+		
+//		new Thread() {
+//			public void run() {
+//
+//				String i = null;
+//				int a = Integer.valueOf(i);
+//			};
+//
+//		}.start();
 	}
 
 	private void copyAntiVirusDB() {
