@@ -8,20 +8,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/blue_bkg"
-        android:padding="20dp" >
+        android:padding="1dp" >
 
         <ImageView
+            android:layout_marginTop="60dp"
             android:id="@+id/home_logo"
             android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:layout_centerVertical="true"
+            android:layout_height="80dp"
             android:layout_marginLeft="10dp"
             android:src="@drawable/logo" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="37dp"
+            android:layout_marginTop="67dp"
             android:layout_toRightOf="@id/home_logo"
             android:orientation="vertical" >
 
@@ -33,7 +33,7 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <com.example.mobilesafe.customControl.MyTextView
+            <com.aliyouyouzi.mobilesafe.customControl.MyTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="17dp"
@@ -44,21 +44,29 @@
         </LinearLayout>
 
         <ImageButton
+            android:layout_marginTop="60dp"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_alignParentRight="true"
             android:background="@drawable/setting_background"
-            android:src="@drawable/setting"
-            android:onClick="home_setting" />
+            android:onClick="home_setting"
+            android:src="@drawable/setting" />
+
+        <LinearLayout
+            android:id="@+id/adLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+        </LinearLayout>
     </RelativeLayout>
 
     <GridView
-        android:numColumns="2"
-        android:horizontalSpacing="3dp"
-        android:verticalSpacing="1dp"
         android:id="@+id/home_grid"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:horizontalSpacing="3dp"
+        android:numColumns="2"
+        android:verticalSpacing="1dp" >
     </GridView>
 
 </LinearLayout>

@@ -17,7 +17,7 @@ public final class R {
 		public static final int StickyListHeadersListView_android_requiresFadingEdge = 21;
 		public static final int StickyListHeadersListView_android_padding = 1;
 		public static final int StickyListHeadersListView_android_fadingEdgeLength = 7;
-		public static final int[] StickyListHeadersListView = { 0x0101007f, 0x010100d5, 0x010100d6, 0x010100d7, 0x010100d8, 0x010100d9, 0x010100de, 0x010100e0, 0x010100eb, 0x010100fb, 0x010100fc, 0x010100fd, 0x010100fe, 0x01010100, 0x01010101, 0x01010129, 0x0101012a, 0x0101012b, 0x01010226, 0x010102c1, 0x01010335, 0x010103a5, 0x7f010028, 0x7f010029, 0x7f01002a };
+		public static final int[] StickyListHeadersListView = { 0x0101007f, 0x010100d5, 0x010100d6, 0x010100d7, 0x010100d8, 0x010100d9, 0x010100de, 0x010100e0, 0x010100eb, 0x010100fb, 0x010100fc, 0x010100fd, 0x010100fe, 0x01010100, 0x01010101, 0x01010129, 0x0101012a, 0x0101012b, 0x01010226, 0x010102c1, 0x01010335, 0x010103a5, 0x7f010000, 0x7f010001, 0x7f010002 };
 		public static final int StickyListHeadersListView_stickyListHeadersListViewStyle = 22;
 		public static final int StickyListHeadersListView_android_choiceMode = 17;
 		public static final int StickyListHeadersListView_hasStickyHeaders = 23;
@@ -36,8 +36,8 @@ public final class R {
 		public static final int StickyListHeadersListView_android_clipToPadding = 8;
 	}
 	public static final class attr {
-		public static final int isDrawingListUnderStickyHeader = 0x7f01002a;
-		public static final int hasStickyHeaders = 0x7f010029;
-		public static final int stickyListHeadersListViewStyle = 0x7f010028;
+		public static final int isDrawingListUnderStickyHeader = 0x7f010002;
+		public static final int hasStickyHeaders = 0x7f010001;
+		public static final int stickyListHeadersListViewStyle = 0x7f010000;
 	}
 }

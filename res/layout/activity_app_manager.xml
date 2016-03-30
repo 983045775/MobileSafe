@@ -8,12 +8,12 @@
         style="@style/titleTheme"
         android:text="软件管家" />
 
-    <com.example.mobilesafe.view.ProgressDesView
+    <com.aliyouyouzi.mobilesafe.view.ProgressDesView
         android:id="@+id/app_manager_pv_rom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.example.mobilesafe.view.ProgressDesView
+    <com.aliyouyouzi.mobilesafe.view.ProgressDesView
         android:id="@+id/app_manager_pv_sd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
