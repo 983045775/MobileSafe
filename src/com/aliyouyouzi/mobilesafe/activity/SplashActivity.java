@@ -108,11 +108,11 @@ public class SplashActivity extends Activity {
 					.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
 			Intent actionIntent = new Intent(this, SplashActivity.class);
 			shirtcutIntent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, actionIntent);
-			shirtcutIntent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "哈哈卫士");
+			shirtcutIntent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "手机安全卫士");
 			shirtcutIntent.putExtra(Intent.EXTRA_SHORTCUT_ICON, BitmapFactory
 					.decodeResource(getResources(), R.drawable.icon));
 			sendBroadcast(shirtcutIntent);
-			//设置创建过了
+			//设置创建过了 
 			PreferencesUtils.putBoolean(this,Constants.SHORTCUT, true);
 		}
 		

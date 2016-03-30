@@ -109,6 +109,7 @@ public class ProgressManagerActivity extends Activity implements
 				runOnUiThread(new Runnable() {
 					public void run() {
 						mLoading.setVisibility(View.GONE);
+						//TODO
 						myAdapter = new MyAdapter();
 						mListview.setAdapter(myAdapter);
 						isloading = true;
@@ -275,7 +276,11 @@ public class ProgressManagerActivity extends Activity implements
 			} else {
 				holder = (ViewHolder) convertView.getTag();
 			}
-			ProgressManagerInfo info = orderlist.get(position);
+			ProgressManagerInfo info = null;
+			try {
+				info = orderlist.get(position);
+			} catch (Exception e) {
+			}
 
 			// 更新样式
 			holder.mIvicon.setImageDrawable(info.getIcon());
@@ -433,6 +438,9 @@ public class ProgressManagerActivity extends Activity implements
 					Toast.LENGTH_SHORT).show();
 			break;
 		case R.id.progress_manager_set_display_system:
+			if(!isloading){
+				break;
+			}
 			// 是否显示系统进程
 			boolean isDisplay = PreferencesUtils.getBoolean(
 					getApplicationContext(), Constants.DISPLAY_SYSTEM, true);

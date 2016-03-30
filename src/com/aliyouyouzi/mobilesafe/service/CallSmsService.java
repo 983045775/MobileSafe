@@ -30,7 +30,7 @@ public class CallSmsService extends Service {
 	public IBinder onBind(Intent intent) {
 		return null;
 	}
-
+  
 	public void onCreate() {
 		super.onCreate();
 		dao = new BlackSafeDao(getApplicationContext());
